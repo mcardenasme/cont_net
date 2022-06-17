@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Ximena Londoño",
+        "puesto": "Abogada",
+        "especialidad": "Especialista en contratación estatal",
+        "especialidad2": "Especialista en derecho administrativo"
+    },
+    {
+        "nombre": "Duvan Tulande",
+        "puesto": "Ingeniero informático",
+        "especialidad": "",
+        "especialidad2": ""
+    },
+    {
+        "nombre": "Sebastián Rangel",
+        "puesto": "Economista",
+        "especialidad": "Especialista en contratación estatal",
+        "especialidad2": ""
+    }
+]
