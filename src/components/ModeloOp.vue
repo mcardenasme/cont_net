@@ -8,20 +8,15 @@
         p Nuestro trabajo está basado en la rentibilidad mutua, es decir, que la prestación del servicio solo será remunerada en caso que se logren procesos contractuales exitosos. Ofreciéndole al asesorado oportunidades de crecimiento empresarial así como la inscripción del mismo dentro del grupo de trabajo de contractual newtworks.
     .text-center
         .text-lg.font-normal.text-black ¡LO ASESORAMOS! 
-        .text-lg.font-semibold.text-black.cursor-pointer(href="#contacto") CONTÁCTENOS
+        a.text-lg.font-semibold.text-black.cursor-pointer(href="#contacto") CONTÁCTENOS
 
+    img.w-full(src="../static/competencia.JPG")
     .font-light.text-center.text-black.uppercase.leading-snug(class="text-[40px]") Trabaja o aprende con nosotros
     .text-sm.text-black.font-light.text-justify.leading-7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quis reprehenderit est ipsam magnam id vitae nam sunt, laudantium quasi enim? Possimus sapiente dolorem corrupti voluptatum blanditiis voluptas, aperiam impedit.
+    
 </template>
 
 
 <script>
-// export default {
 
-//     methods: {
-//         redirect(){
-//             this.$router.push('MyContact')
-//         },
-//     }
-// }
 </script>

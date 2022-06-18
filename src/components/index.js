@@ -10,6 +10,7 @@ import ModeloOp from './ModeloOp.vue';
 import LoQueMas from './LoQueMas.vue';
 import MyPlanes from './MyPlanes.vue';
 import MyContacto from './MyContacto.vue';
+import MyPlanes from './MyPlanes.vue';
 
 export default function (app) {
     app.component('NavBar', NavBar);
@@ -24,4 +25,5 @@ export default function (app) {
     app.component('LoQueMas', LoQueMas);
     app.component('MyPlanes', MyPlanes);
     app.component('MyContacto', MyContacto);
+    app.component('MyPlanes', MyPlanes);
 }
