@@ -10,7 +10,7 @@
         .text-lg.font-normal.text-black ¡LO ASESORAMOS! 
         a.text-lg.font-semibold.text-black.cursor-pointer(href="#contacto") CONTÁCTENOS
 
-    img.w-full(src="../static/competencia.JPG")
+    img.w-full(src="../static/competencia.jpg")
     .font-light.text-center.text-black.uppercase.leading-snug(class="text-[40px]") Trabaja o aprende con nosotros
     .text-sm.text-black.font-light.text-justify.leading-7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quis reprehenderit est ipsam magnam id vitae nam sunt, laudantium quasi enim? Possimus sapiente dolorem corrupti voluptatum blanditiis voluptas, aperiam impedit.
     

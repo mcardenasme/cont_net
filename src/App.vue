@@ -1,5 +1,5 @@
 <template lang="pug">
-.min-h-screen.min-w-screen.tracking-wider.leading-6.font-montserrat.scroll-smooth(class="bg-[#31393C]")
+.min-h-screen.min-w-screen.tracking-wider.leading-6.font-poppins.scroll-smooth(class="bg-[#31393C]")
   NavBar
   //-.font-normal.text-lg.text-white.cursor-pointer.p-20(@click="redirect") Hola
   //-InfoOne
