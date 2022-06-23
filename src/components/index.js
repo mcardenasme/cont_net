@@ -1,3 +1,4 @@
+import MyHome from './MyHome.vue';
 import NavBar from './NavBar.vue'
 import InfoOne from './InfoOne.vue'
 import InfoTwo from './InfoTwo.vue';
@@ -15,6 +16,7 @@ import PopUpData from './PopUpData.vue';
 import MyDiagnostico from './MyDiagnostico.vue';
 
 export default function (app) {
+    app.component('MyHome', MyHome);
     app.component('NavBar', NavBar);
     app.component('InfoOne', InfoOne);
     app.component('InfoTwo', InfoTwo);

@@ -7,7 +7,8 @@
             .flex
                 .text-5xl.font-normal.text-center.text-black.uppercase.leading-snug $ 65.000
                 .text-base.font-normal.text-center.text-black.leading-snug.mt-8 / Hora
-            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 1 hora
+            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 
+                p 1 hora
         .justify-items-center.p-6(class="bg-[#26303A]")
             .text-xl.font-normal.text-center.text-white.uppercase.leading-snug TEMAS DE COMPLEJIDAD BÁSICA
         .justify-items-center.px-2.py-6(class="bg-[#E6E6E6] text-[#6E6E6E]")
@@ -27,7 +28,8 @@
             .flex
                 .text-5xl.font-normal.text-center.text-black.uppercase.leading-snug $ 60.000
                 .text-base.font-normal.text-center.text-black.leading-snug.mt-8 / Hora
-            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 3 horas
+            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 
+                p 3 horas
         .justify-items-center.p-6(class="bg-[#26303A]")
             .text-xl.font-normal.text-center.text-white.uppercase.leading-snug TEMAS DE COMPLEJIDAD INTERMEDIA
         .justify-items-center.px-2.py-6(class="bg-[#E6E6E6] text-[#6E6E6E]")
@@ -51,7 +53,8 @@
             .flex
                 .text-5xl.font-normal.text-center.text-black.uppercase.leading-snug $ 55.000
                 .text-base.font-normal.text-center.text-black.leading-snug.mt-8 / Hora
-            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 5 hora
+            .text-base.font-light.text-center.text-black.leading-snug Cantidad de horas mínimas: 
+                p 5 horas
         .justify-items-center.p-6(class="bg-[#26303A]")
             .text-xl.font-normal.text-center.text-white.uppercase.leading-snug TEMAS DE COMPLEJIDAD AVANZADA
         .justify-items-center.px-2.py-6(class="bg-[#E6E6E6] text-[#6E6E6E]")
