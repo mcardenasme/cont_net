@@ -1,21 +1,22 @@
 <template lang="pug">
 .min-h-screen.min-w-screen.tracking-wider.leading-6.font-poppins.scroll-smooth(class="bg-[#31393C]")
+  RouterView
   NavBar
-  //-.font-normal.text-lg.text-white.cursor-pointer.p-20(@click="redirect") Hola
+  PopUp
   //-InfoOne
   //-InfoTwo
   InfoThree(id="contnet")
+  MyDiagnostico
   MyInicio
   QuienesSomos
   ModeloOp
   MyPlanes
   MyContacto
   
-
-
 </template>
 
 <script>
+import { RouterView } from 'vue-router'
 import NavBar from "./components/NavBar.vue" 
 import InfoOne from "./components/InfoOne.vue" 
 import InfoTwo from "./components/InfoTwo.vue" 
@@ -26,6 +27,8 @@ import MyInicio from "./components/MyInicio.vue"
 import ModeloOp from "./components/ModeloOp.vue"
 import MyPlanes from "./components/MyPlanes.vue"
 import MyContacto from "./components/MyContacto.vue"
+import PopUp from "./components/PopUp.vue"
+import MyDiagnostico from "./components/MyDiagnostico.vue"
 
 export default{
     components:{
@@ -39,6 +42,9 @@ export default{
         ModeloOp,
         MyContacto,
         MyPlanes,
+        PopUp,
+        MyDiagnostico,
     },
+
 }
 </script>

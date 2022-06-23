@@ -5,8 +5,13 @@ const router = createRouter({
     routes: [
         {
         path: '/',
-        name: 'InfoOne',
-        component: () => import('../components/InfoOne.vue')
+        name: 'App',
+        component: () => import('../App.vue')
+        },
+        {
+        path: '/data',
+        name: 'data',
+        component: () => import('../components/PopUpData.vue')
     
         },       
     ]
