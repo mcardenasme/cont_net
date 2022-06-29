@@ -1,5 +1,5 @@
 <template lang="pug">
-.min-h-screen.min-w-screen.font-poppins
+.min-h-screen.min-w-screen.font-poppins(class="bg-[#31393C]")
     .flex.items-stretch.px-8
         <svg  class="w-6 h-6 self-center cursor-pointer" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
         .flex.grid.grid-col.gap-7.justify-center.w-full.font-light.text-white.text-center.uppercase(class="text-[42px] py-[20%]")

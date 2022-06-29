@@ -14,6 +14,8 @@ import MyContacto from './MyContacto.vue';
 import PopUp from './PopUp.vue';
 import PopUpData from './PopUpData.vue';
 import MyDiagnostico from './MyDiagnostico.vue';
+import BotonSugerencias from './BotonSugerencias.vue';
+import MySlider from './MySlider.vue';
 
 export default function (app) {
     app.component('MyHome', MyHome);
@@ -32,4 +34,6 @@ export default function (app) {
     app.component('PopUp', PopUp);
     app.component('PopUpData', PopUpData);
     app.component('MyDiagnostico', MyDiagnostico);
+    app.component('BotonSugerencias', BotonSugerencias);
+    app.component('MySlider', MySlider);
 }

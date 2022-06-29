@@ -1,10 +1,12 @@
 <template lang="pug">
-.min-h-screen.min-w-screen.tracking-wider.leading-6.font-poppins.scroll-smooth(class="bg-[#31393C]")
+.min-h-screen.tracking-wider.leading-6.font-poppins.scroll-smooth 
     NavBar
+    BotonSugerencias
     PopUp
+    MySlider
     //- InfoOne
     //- InfoTwo
-    InfoThree(id="contnet")
+    //-InfoThree(id="contnet")
     MyDiagnostico
     MyInicio
     QuienesSomos
@@ -27,6 +29,8 @@ import MyPlanes from "./MyPlanes.vue"
 import MyContacto from "./MyContacto.vue"
 import PopUp from "./PopUp.vue"
 import MyDiagnostico from "./MyDiagnostico.vue"
+import BotonSugerencias from "./BotonSugerencias.vue"
+import MySlider from "./MySlider.vue"
 
 export default{
     components:{
@@ -42,6 +46,8 @@ export default{
         MyPlanes,
         PopUp,
         MyDiagnostico,
+        BotonSugerencias,
+        MySlider,
     },
 
 }
