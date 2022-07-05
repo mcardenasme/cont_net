@@ -15,7 +15,7 @@ export default{
     },
     methods: {
         async getData() {
-            await axios.get('https://znh2xhzrx7.execute-api.us-east-1.amazonaws.com/default/holahola').then(response => {
+            await axios.get('https://pokeapi.co/api/v2/pokemon/ditto').then(response => {
                 this.data = response.data
             })
         },
