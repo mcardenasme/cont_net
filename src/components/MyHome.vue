@@ -1,12 +1,11 @@
 <template lang="pug">
-.min-h-screen.tracking-wider.leading-6.font-poppins.scroll-smooth 
+.min-w-screen.min-h-screen.tracking-wider.leading-6.font-poppins.scroll-smooth 
     NavBar
+    WhatsappButton
     BotonSugerencias
     PopUp
     MySlider
-    //- InfoOne
-    //- InfoTwo
-    //-InfoThree(id="contnet")
+    .rounded.bg-gray-200.p-2.w-28.text-gray-600.cursor-pointer(@click="redirectPopup") Redirect
     MyDiagnostico
     MyInicio
     QuienesSomos
@@ -31,6 +30,7 @@ import PopUp from "./PopUp.vue"
 import MyDiagnostico from "./MyDiagnostico.vue"
 import BotonSugerencias from "./BotonSugerencias.vue"
 import MySlider from "./MySlider.vue"
+import WhatsappButton from "./WhatsappButton.vue"
 
 export default{
     components:{
@@ -48,7 +48,13 @@ export default{
         MyDiagnostico,
         BotonSugerencias,
         MySlider,
+        WhatsappButton,
     },
+    methods: {
+        redirectPopup () {
+        this.$router.push('/function/')
+    },
+    }
 
 }
 </script>

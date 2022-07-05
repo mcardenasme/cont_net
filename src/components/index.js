@@ -16,6 +16,8 @@ import PopUpData from './PopUpData.vue';
 import MyDiagnostico from './MyDiagnostico.vue';
 import BotonSugerencias from './BotonSugerencias.vue';
 import MySlider from './MySlider.vue';
+import WhatsappButton from './WhatsappButton.vue';
+import MyFunction from './MyFunction.vue';
 
 export default function (app) {
     app.component('MyHome', MyHome);
@@ -36,4 +38,6 @@ export default function (app) {
     app.component('MyDiagnostico', MyDiagnostico);
     app.component('BotonSugerencias', BotonSugerencias);
     app.component('MySlider', MySlider);
+    app.component('WhatsappButton', WhatsappButton);
+    app.component('MyFunction', MyFunction);
 }

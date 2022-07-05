@@ -13,7 +13,13 @@ const router = createRouter({
         name: 'data',
         component: () => import('../components/PopUpData.vue')
     
-        },       
+        }, 
+        {
+        path: '/function',
+        name: 'function',
+        component: () => import('../components/MyFunction.vue')
+    
+        },      
     ]
 })
 
